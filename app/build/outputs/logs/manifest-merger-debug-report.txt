@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:4:5-6:35
+	android:required
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:6:9-32
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:5:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:10:5-36:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/shailshah/.android/build-cache/ba98793302098109b592fa560837677ffa31eedc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/878eb5dd9100dc05db29e3a932fa97028099f965/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/shailshah/.android/build-cache/c58699d634064866b188854a96e9bb41b8e6d8af/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/shailshah/.android/build-cache/19b94381d49028162ed2d0fc79ae31ac71c92e94/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/shailshah/.android/build-cache/70682a730818441cdf4d35ee030be1da4e4c0413/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/155a997d338172b8d2fce64c06befba369be46bf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shailshah/.android/build-cache/6d9bbf36ad389760fe513734f52463fd19632694/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:16:9-40
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:17:9-28:24
+	android:authorities
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:19:13-72
+	android:grantUriPermissions
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:21:13-47
+	android:exported
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:18:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:23:13-26:19
+	android:resource
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:25:17-51
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:24:17-67
+activity#com.geekathlon.shailshah.faceemoji.MainActivity
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:29:9-35:20
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:29:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:33:27-74
+uses-sdk
+INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/shailshah/.android/build-cache/ba98793302098109b592fa560837677ffa31eedc/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/878eb5dd9100dc05db29e3a932fa97028099f965/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/shailshah/.android/build-cache/c58699d634064866b188854a96e9bb41b8e6d8af/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/shailshah/.android/build-cache/19b94381d49028162ed2d0fc79ae31ac71c92e94/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/shailshah/.android/build-cache/70682a730818441cdf4d35ee030be1da4e4c0413/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/155a997d338172b8d2fce64c06befba369be46bf/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shailshah/.android/build-cache/6d9bbf36ad389760fe513734f52463fd19632694/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/shailshah/.android/build-cache/ba98793302098109b592fa560837677ffa31eedc/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/878eb5dd9100dc05db29e3a932fa97028099f965/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/shailshah/.android/build-cache/c58699d634064866b188854a96e9bb41b8e6d8af/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/shailshah/.android/build-cache/19b94381d49028162ed2d0fc79ae31ac71c92e94/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/shailshah/.android/build-cache/70682a730818441cdf4d35ee030be1da4e4c0413/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/155a997d338172b8d2fce64c06befba369be46bf/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:26:9-47
