@@ -24,6 +24,10 @@
         "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/color-v23/abc_tint_default.xml"
     },
     {
+        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
         "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/color-v23/abc_tint_edittext.xml"
     },

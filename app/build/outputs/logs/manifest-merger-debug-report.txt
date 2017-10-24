@@ -25,15 +25,22 @@ ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/a
 		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:7:22-78
 application
 ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:10:5-36:19
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/shailshah/.android/build-cache/4110293ea2657c46efc900d8e6c2c8d33760eb31/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/shailshah/.android/build-cache/a59ebe2f737a10930882675f82e35172ddbcb0ba/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/shailshah/.android/build-cache/efe6e7f7fa11c0c45ca1be9c6e530027e78fb9d4/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/shailshah/.android/build-cache/62aac3f5d691e0dc72e22d6d8eafa34f750e2d21/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/shailshah/.android/build-cache/ba98793302098109b592fa560837677ffa31eedc/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/878eb5dd9100dc05db29e3a932fa97028099f965/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/shailshah/.android/build-cache/c58699d634064866b188854a96e9bb41b8e6d8af/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/shailshah/.android/build-cache/19b94381d49028162ed2d0fc79ae31ac71c92e94/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/shailshah/.android/build-cache/70682a730818441cdf4d35ee030be1da4e4c0413/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/155a997d338172b8d2fce64c06befba369be46bf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.0] /Users/shailshah/.android/build-cache/65637aeb0a4d60857e0a57aab5e6d00cf4976b0c/output/AndroidManifest.xml:8:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shailshah/.android/build-cache/6d9bbf36ad389760fe513734f52463fd19632694/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:13:9-41
@@ -79,18 +86,27 @@ ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/a
 		ADDED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/d268bd2895646425d680fd9b497ec5868f88108c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/shailshah/.android/build-cache/4110293ea2657c46efc900d8e6c2c8d33760eb31/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] /Users/shailshah/.android/build-cache/a59ebe2f737a10930882675f82e35172ddbcb0ba/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/shailshah/.android/build-cache/efe6e7f7fa11c0c45ca1be9c6e530027e78fb9d4/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/shailshah/.android/build-cache/62aac3f5d691e0dc72e22d6d8eafa34f750e2d21/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/shailshah/.android/build-cache/ba98793302098109b592fa560837677ffa31eedc/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/878eb5dd9100dc05db29e3a932fa97028099f965/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/shailshah/.android/build-cache/c58699d634064866b188854a96e9bb41b8e6d8af/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/shailshah/.android/build-cache/19b94381d49028162ed2d0fc79ae31ac71c92e94/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/shailshah/.android/build-cache/70682a730818441cdf4d35ee030be1da4e4c0413/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/155a997d338172b8d2fce64c06befba369be46bf/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/shailshah/.android/build-cache/8f2c39fb4e5a17e9058d1d36ed02f51fca20d28b/output/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.0] /Users/shailshah/.android/build-cache/65637aeb0a4d60857e0a57aab5e6d00cf4976b0c/output/AndroidManifest.xml:6:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shailshah/.android/build-cache/6d9bbf36ad389760fe513734f52463fd19632694/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.0.0-alpha1] /Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
@@ -98,16 +114,33 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shai
 		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:design:26.0.0-alpha1] /Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/d268bd2895646425d680fd9b497ec5868f88108c/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/shailshah/.android/build-cache/4110293ea2657c46efc900d8e6c2c8d33760eb31/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/shailshah/.android/build-cache/ba98793302098109b592fa560837677ffa31eedc/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/878eb5dd9100dc05db29e3a932fa97028099f965/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/shailshah/.android/build-cache/c58699d634064866b188854a96e9bb41b8e6d8af/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/shailshah/.android/build-cache/19b94381d49028162ed2d0fc79ae31ac71c92e94/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/shailshah/.android/build-cache/70682a730818441cdf4d35ee030be1da4e4c0413/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/872018663019281a8802dd35dafe07980409a6f4/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/shailshah/.android/build-cache/59b9816884d20aec6b3a8cbf784ed82d75914d02/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/shailshah/.android/build-cache/155a997d338172b8d2fce64c06befba369be46bf/output/AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:design:26.0.0-alpha1] /Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:26.0.0-alpha1] /Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/shailshah/.android/build-cache/62aac3f5d691e0dc72e22d6d8eafa34f750e2d21/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/shailshah/.android/build-cache/62aac3f5d691e0dc72e22d6d8eafa34f750e2d21/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] /Users/shailshah/.android/build-cache/62aac3f5d691e0dc72e22d6d8eafa34f750e2d21/output/AndroidManifest.xml:20:20-65
