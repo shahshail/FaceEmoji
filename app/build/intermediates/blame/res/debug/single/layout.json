@@ -56,12 +56,12 @@
         "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
         "source": "/Users/shailshah/.android/build-cache/f4f9e5e85bc9a464ea9122e171e56684ca6b91cd/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",

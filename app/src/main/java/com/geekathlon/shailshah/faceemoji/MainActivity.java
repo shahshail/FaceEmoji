@@ -58,7 +58,9 @@ public class MainActivity extends AppCompatActivity {
         //Setup timber
         Timber.plant(new Timber.DebugTree());
     }
-
+    /**
+     * OnClick method for "Emojify Me!" Button. Launches the camera app.
+     */
     @OnClick(R.id.emojify_button)
     public void emojifyMe() {
         // Check for the external storage permission
@@ -76,75 +78,82 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        // called when app request read and write permission to the user
-        switch (requestCode)
-        {
-            case REQUEST_STORAGE_PERMISSION:
-            {
-                if (grantResults.length>0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
+        // Called when you request permission to read and write to external storage
+        switch (requestCode) {
+            case REQUEST_STORAGE_PERMISSION: {
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // If you get permission, launch the camera
                     launchCamera();
-                }else
-                {
-                    Toast.makeText(this, getResources().getString(R.string.permission_denied), Toast.LENGTH_SHORT).show();
+                } else {
+                    // If you do not get permission, show a Toast
+                    Toast.makeText(this, R.string.permission_denied, Toast.LENGTH_SHORT).show();
                 }
+                break;
             }
-            break;
         }
     }
 
+    /**
+     * Creates a temporary image file and captures a picture to store in it.
+     */
+    private void launchCamera() {
 
-    private void launchCamera()
-    {
-        //Create  the capture image Intent
+        // Create the capture image intent
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
-        //Ensure that there is a camera activity to handle an intent
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null)
-        {
+        // Ensure that there's a camera activity to handle the intent
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            // Create the temporary File where the photo should go
             File photoFile = null;
-            try{
-                //create temporary file thet the photo should go...
+            try {
                 photoFile = BitmapUtils.createTempImageFile(this);
-            }catch (IOException e)
-            {
-                e.printStackTrace();
+            } catch (IOException ex) {
+                // Error occurred while creating the File
+                ex.printStackTrace();
             }
+            // Continue only if the File was successfully created
+            if (photoFile != null) {
 
-            //continue only is file was created
-            if (photoFile != null)
-            {
-                //Get the path of temporary file
+                // Get the path of the temporary file
                 mTempPhotoPath = photoFile.getAbsolutePath();
 
-                //Get the content URI for image file
-                Uri photoUri = FileProvider.getUriForFile(this,FILE_PROVIDER_AUTHORITY,photoFile);
+                // Get the content URI for the image file
+                Uri photoURI = FileProvider.getUriForFile(this,
+                        FILE_PROVIDER_AUTHORITY,
+                        photoFile);
 
-                // Add url so that the camera can store the image
-                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
+                // Add the URI so the camera can store the image
+                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
 
-                //lunch the camera activity
-                startActivityForResult(takePictureIntent,REQUEST_IMAGE_CAPTURE);
-
+                // Launch the camera activity
+                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
             }
         }
     }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        // If the image capture activity was called and user successfuly capture an image
+        // If the image capture activity was called and was successful
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            // Process the image and set it to the TextView
             processAndSetImage();
-        }else
-                {
-                   BitmapUtils.deleteImageFile(this,mTempPhotoPath);
-                }
-        }
+        } else {
 
-    private void processAndSetImage()
-    {
+            // Otherwise, delete the temporary image file
+            BitmapUtils.deleteImageFile(this, mTempPhotoPath);
+        }
+    }
+
+    /**
+     * Method for processing the captured image and setting it to the TextView.
+     */
+    private void processAndSetImage() {
+
         // Toggle Visibility of the views
         mEmojifyButton.setVisibility(View.GONE);
         mTitleTextView.setVisibility(View.GONE);
@@ -152,12 +161,21 @@ public class MainActivity extends AppCompatActivity {
         mShareFeb.setVisibility(View.VISIBLE);
         mClearFeb.setVisibility(View.VISIBLE);
 
-        //Resemble the saved image to fit the ImageView
-        mResultBitmap = BitmapUtils.resamplePic(this,mTempPhotoPath);
+        // Resample the saved image to fit the ImageView
+        mResultBitmap = BitmapUtils.resamplePic(this, mTempPhotoPath);
 
+
+        // Detect the faces and overlay the appropriate emoji
+        mResultBitmap = FaceEmojifier.detectFaces(this, mResultBitmap);
+
+        // Set the new bitmap to the ImageView
         mImageView.setImageBitmap(mResultBitmap);
-
     }
+
+
+    /**
+     * OnClick method for the save button.
+     */
     @OnClick(R.id.save_button)
     public void saveMe() {
         // Delete the temporary image file

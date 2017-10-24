@@ -24,12 +24,12 @@
         "source": "/Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/ic_share.xml",
-        "source": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/drawable/ic_share.xml"
-    },
-    {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/ic_share.xml",
+        "source": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/drawable/ic_share.xml"
     },
     {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/ic_clear.xml",
@@ -104,12 +104,20 @@
         "source": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/drawable/closed_smile.png"
     },
     {
+        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/ic_background.jpg",
+        "source": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/drawable/ic_background.jpg"
+    },
+    {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/shailshah/.android/build-cache/aeae6ad58d5dff6b021249d55552646b5585640c/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/ic_background2.png",
+        "source": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/drawable/ic_background2.png"
     },
     {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
