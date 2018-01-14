@@ -10,7 +10,7 @@ The user can also save, share and delete the image.
 ## Design Flow
 1. The user opens an app and launches the camera and take a picture.
 2. Thr Google Mobile Vision API's Face Detection Library process the pic to extract the classification data and map that data to a closely matching emoji and overly that emoji onto face detected location
-![atp txt](https://github.com/shahshail/FaceEmoji/tree/master/Screenshots/face_emoji.png)
+![atp txt](https://github.com/shahshail/FaceEmoji/blob/master/Screenshots/face_emoji.png)
 
 3. The user can finally shave that image to phone or sd card storage, delete iit from cache memory or share that image.
 
@@ -65,5 +65,5 @@ Face doesnt has to be directly facing to the camera the app is smart enaugh to d
 
 
 ## Screenshots:
-![atp txt](https://github.com/shahshail/FaceEmoji/tree/master/Screenshots/screenshot.png)
+![atp txt](https://github.com/shahshail/FaceEmoji/blob/master/Screenshots/screenshot.png)
 
