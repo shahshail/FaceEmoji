@@ -22,63 +22,64 @@ public class FaceEmojifier {
     private static final double SMILING_PROB_THRESHOLD = .15;
     private static final double EYE_OPEN_PROB_THRESHOLD = .5;
 
-    public static Bitmap detectFaces(Context context, Bitmap bitmap) {
+    public static Bitmap detectFaces(Context context, Bitmap picture) {
 
-        FaceDetector faceDetector = new FaceDetector.Builder(context)
+        // Create the face detector, disable tracking and enable classifications
+        FaceDetector detector = new FaceDetector.Builder(context)
                 .setTrackingEnabled(false)
                 .setClassificationType(FaceDetector.ALL_CLASSIFICATIONS)
                 .build();
 
-        //Build the frame
-        Frame frame = new Frame.Builder().setBitmap(bitmap).build();
+        // Build the frame
+        Frame frame = new Frame.Builder().setBitmap(picture).build();
 
-        //Detect The faces
-        SparseArray<Face> fases = faceDetector.detect(frame);
+        // Detect the faces
+        SparseArray<Face> faces = detector.detect(frame);
 
-        Timber.d(FaceEmojifier.class.getSimpleName(), "detectFaces: Number of Fases  = " + fases.size());
+        // Log the number of faces
+        Timber.d("detectFaces: number of faces = " + faces.size());
 
-        //Initialize result bitmap to original picture
-        Bitmap resultBitmap = bitmap;
+        // Initialize result bitmap to original picture
+        Bitmap resultBitmap = picture;
 
-
-        //If there are no faces detected, show a toast message
-        if (fases.size() == 0) {
-            Toast.makeText(context, "No Faces Detected :( !!!", Toast.LENGTH_SHORT).show();
+        // If there are no faces detected, show a Toast message
+        if (faces.size() == 0) {
+            Toast.makeText(context, R.string.no_faces_message, Toast.LENGTH_SHORT).show();
         } else {
 
-
-            for (int i = 0; i < fases.size(); i++) {
-                Face face = fases.valueAt(i);
+            // Iterate through the faces
+            for (int i = 0; i < faces.size(); ++i) {
+                Face face = faces.valueAt(i);
 
                 Bitmap emojiBitmap;
                 switch (whichEmoji(face)) {
                     case SMILE:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.smile);
+                                R.drawable.smile_batman);
                         break;
                     case FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.frown);
+                                R.drawable.batmen_frown);
                         break;
                     case LEFT_WINK:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.leftwink);
+                                R.drawable.leftwink_batman);
                         break;
                     case RIGHT_WINK:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.rightwink);
+                                R.drawable.rightwink_batman);
                         break;
                     case LEFT_WINK_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.leftwinkfrown);
+                                R.drawable.left_wink_frown);
                         break;
                     case RIGHT_WINK_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.rightwinkfrown);
+                                R.drawable.rightwinkfrown_batman);
                         break;
                     case CLOSED_EYE_SMILE:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
-                                R.drawable.closed_smile);
+                                R.drawable.batman_closed_frown);
                         break;
                     case CLOSED_EYE_FROWN:
                         emojiBitmap = BitmapFactory.decodeResource(context.getResources(),
@@ -96,7 +97,7 @@ public class FaceEmojifier {
 
 
         // Release the detector
-        faceDetector.release();
+        detector.release();
 
         return resultBitmap;
     }

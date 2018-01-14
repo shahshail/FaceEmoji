@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_f7b3effb33a459d01e73a9547b0ea0afc649bb61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.android/build-cache/62aac3f5d691e0dc72e22d6d8eafa34f750e2d21/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/classes_8b48d44d384be7053222a6152a4912a3c9dc3054.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.android/build-cache/65637aeb0a4d60857e0a57aab5e6d00cf4976b0c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c74c28a44292b6480afe69ddb2c0974f45393a3a">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/classes_c26c05a7ff0b18b2708a2e952ba4f29f3a4a38e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.android/build-cache/8f2c39fb4e5a17e9058d1d36ed02f51fca20d28b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/classes_024a7b7ebd91c849a36832db0ef103c76bf0d8b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.android/build-cache/efe6e7f7fa11c0c45ca1be9c6e530027e78fb9d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/classes_7d085281ceb4cf7fd3a3e6ce2709480c09dcee71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.android/build-cache/955adfbeb67a0f64d9ae06fac704c29099beb294/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/classes_f63698dac4297d9478ab533dbfec1ae8e941d1f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shailshah/.android/build-cache/a59ebe2f737a10930882675f82e35172ddbcb0ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/pre-dexed/debug/classes_041d5033abc7c7f51d8b2f3db1b2fbaa8fad6f8d.jar" />
+    </item>
+
+</items>

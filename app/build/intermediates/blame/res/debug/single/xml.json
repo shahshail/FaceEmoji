@@ -2,5 +2,9 @@
     {
         "merged": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/xml/file_paths.xml",
         "source": "/Users/shailshah/Documents/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/shailshah/Documents/Android/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/res/merged/debug/xml/file_paths.xml",
+        "source": "/Users/shailshah/Documents/Android/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/src/main/res/xml/file_paths.xml"
     }
 ]

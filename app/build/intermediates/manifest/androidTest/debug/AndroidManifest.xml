@@ -13,7 +13,7 @@
         android:label="Tests for com.geekathlon.shailshah.faceemoji"
         android:targetPackage="com.geekathlon.shailshah.faceemoji" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

@@ -20,10 +20,12 @@
 
     <application
         android:allowBackup="true"
+        android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -35,7 +37,9 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name="com.geekathlon.shailshah.faceemoji.MainActivity" >
+        <activity
+            android:name="com.geekathlon.shailshah.faceemoji.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
