@@ -37,7 +37,7 @@ So with the use of above three probabilities and thresholds we can calculate dif
 7. Closed Eye Smile
 8. Closed Eye Frown
 
-![atp txt](https://github.com/shahshail/FaceEmoji/tree/master/Screenshots/thresholds.png)
+![atp txt](https://github.com/shahshail/FaceEmoji/blob/master/Screenshots/thresholds.png)
 
 
 ### Landmarks
