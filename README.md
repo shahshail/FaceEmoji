@@ -10,6 +10,7 @@ The user can also save, share and delete the image.
 ## Design Flow
 1. The user opens an app and launches the camera and take a picture.
 2. Thr Google Mobile Vision API's Face Detection Library process the pic to extract the classification data and map that data to a closely matching emoji and overly that emoji onto face detected location
+
 ![atp txt](https://github.com/shahshail/FaceEmoji/blob/master/Screenshots/face_emoji.png)
 
 3. The user can finally shave that image to phone or sd card storage, delete iit from cache memory or share that image.
@@ -18,24 +19,24 @@ The user can also save, share and delete the image.
 This app receives Probability of each expression from Face Detection library which is lies between 0 to 1.(For an example 0 probability means eye is close and 1 probability means eye is completely open).
 
 Face Detection Library gives three classifications
-1. Smiling Probability
-2. Left Eye open probability
-3. Right Eye Open Probability
+**1.** Smiling Probability
+**2.** Left Eye open probability
+**3.** Right Eye Open Probability
  
 In this app i have defined three Threshold constants
-1. EMOJI_SCALE_FACTOR = **0.09**
-2. SMILING_PROB_THRESHOLD = **.15**
-3. EYE_OPEN_PROB_THRESHOLD = **0.05**
+**1.** EMOJI_SCALE_FACTOR = **0.09**
+**2.** SMILING_PROB_THRESHOLD = **.15**
+**3.** EYE_OPEN_PROB_THRESHOLD = **0.05**
 
 So with the use of above three probabilities and thresholds we can calculate different 8 expressions.
-1. Smile
-2. Frown
-3. Left Wink
-4. Right Wink
-5. Left Wink Frown
-6. Right Wink Frown
-7. Closed Eye Smile
-8. Closed Eye Frown
+**1.** Smile
+**2.** Frown
+**3.** Left Wink
+**4.** Right Wink
+**5.** Left Wink Frown
+**6.** Right Wink Frown
+**7.** Closed Eye Smile
+**8.** Closed Eye Frown
 
 ![atp txt](https://github.com/shahshail/FaceEmoji/blob/master/Screenshots/thresholds.png)
 
