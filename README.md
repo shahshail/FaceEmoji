@@ -29,13 +29,21 @@ In this app i have defined three Threshold constants
 **3.** EYE_OPEN_PROB_THRESHOLD = **0.05**
 
 So with the use of above three probabilities and thresholds we can calculate different 8 expressions.
+
 **1.** Smile
+
 **2.** Frown
+
 **3.** Left Wink
+
 **4.** Right Wink
+
 **5.** Left Wink Frown
+
 **6.** Right Wink Frown
+
 **7.** Closed Eye Smile
+
 **8.** Closed Eye Frown
 
 ![atp txt](https://github.com/shahshail/FaceEmoji/blob/master/Screenshots/thresholds.png)
