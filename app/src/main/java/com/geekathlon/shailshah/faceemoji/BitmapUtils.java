@@ -20,15 +20,22 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.inject.Inject;
+
 /**
  * Created by shailshah on 10/23/17.
  */
 
-public class BitmapUtils {
+public class BitmapUtils  {
+
+
+@Inject
+Context mContext;
 
     private static final String FILE_PROVIDER_AUTHORITY = "com.geekathlon.shailshah.fileprovider";
-    static Bitmap resamplePic(Context context, String imagePath)
+    Bitmap resamplePic(Context context, String imagePath)
     {
+
         // Get device screen size information
         DisplayMetrics metrics = new DisplayMetrics();
         WindowManager manager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);

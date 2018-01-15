@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jan 13 22:47:15 CST 2018
+#Mon Jan 15 08:58:06 CST 2018
 0.baseType=DIRECTORY
 0.base=/Users/shailshah/Documents/Android/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/transforms/dexMerger/debug/0
 0.path=classes.dex

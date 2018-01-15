@@ -10,6 +10,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath false
+            }
+        }
     }
     buildTypes {
         release {
@@ -24,6 +29,10 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile "com.google.dagger:dagger:2.8"
+    annotationProcessor "com.google.dagger:dagger-compiler:2.8"
+    provided 'javax.annotation:jsr250-api:1.0'
+    compile 'javax.inject:javax.inject:1'
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:design:26.+'
     compile 'com.google.android.gms:play-services-vision:10.2.0'

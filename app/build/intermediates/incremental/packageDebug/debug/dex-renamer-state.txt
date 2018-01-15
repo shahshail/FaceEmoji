@@ -1,4 +1,4 @@
-#Sat Jan 13 22:47:15 CST 2018
+#Mon Jan 15 08:58:06 CST 2018
 base.0=/Users/shailshah/Documents/Android/Projects/FaceEmoji/FaceEmojiMe/FaceEmoji/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

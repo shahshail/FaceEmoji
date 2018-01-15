@@ -19,6 +19,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.geekathlon.shailshah.faceemoji.dagger.DaggerMainActivityComponent;
+import com.geekathlon.shailshah.faceemoji.dagger.MainActivityComponent;
+import com.geekathlon.shailshah.faceemoji.dagger.MainActivityModule;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -43,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.title_text_view) TextView mTitleTextView;
 
+    MainActivityComponent mainActivityComponent;
     private String mTempPhotoPath;
 
     private Bitmap mResultBitmap;
@@ -52,11 +57,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mainActivityComponent = DaggerMainActivityComponent.builder()
+                .mainActivityModule(new MainActivityModule(MainActivity.this))
+                .build();
+
+        mainActivityComponent.inject(this);
+
         //Bind the view
         ButterKnife.bind(this);
 
         //Setup timber
         Timber.plant(new Timber.DebugTree());
+
+
     }
     /**
      * OnClick method for "Emojify Me!" Button. Launches the camera app.
@@ -64,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.emojify_button)
     public void emojifyMe() {
         // Check for the external storage permission
-        if (ContextCompat.checkSelfPermission(this,
+        if (ContextCompat.checkSelfPermission(mainActivityComponent.context(),
                 Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED) {
 
@@ -110,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             // Create the temporary File where the photo should go
             File photoFile = null;
             try {
-                photoFile = BitmapUtils.createTempImageFile(this);
+                photoFile = BitmapUtils.createTempImageFile(mainActivityComponent.context());
             } catch (IOException ex) {
                 // Error occurred while creating the File
                 ex.printStackTrace();
@@ -122,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 mTempPhotoPath = photoFile.getAbsolutePath();
 
                 // Get the content URI for the image file
-                Uri photoURI = FileProvider.getUriForFile(this,
+                Uri photoURI = FileProvider.getUriForFile(mainActivityComponent.context(),
                         FILE_PROVIDER_AUTHORITY,
                         photoFile);
 
@@ -162,11 +175,11 @@ public class MainActivity extends AppCompatActivity {
         mClearFeb.setVisibility(View.VISIBLE);
 
         // Resample the saved image to fit the ImageView
-        mResultBitmap = BitmapUtils.resamplePic(this, mTempPhotoPath);
+        mResultBitmap = BitmapUtils.resamplePic(mainActivityComponent.context(), mTempPhotoPath);
 
 
         // Detect the faces and overlay the appropriate emoji
-        mResultBitmap = FaceEmojifier.detectFaces(this, mResultBitmap);
+        mResultBitmap = FaceEmojifier.detectFaces(mainActivityComponent.context(), mResultBitmap);
 
         // Set the new bitmap to the ImageView
         mImageView.setImageBitmap(mResultBitmap);
@@ -179,10 +192,10 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.save_button)
     public void saveMe() {
         // Delete the temporary image file
-        BitmapUtils.deleteImageFile(this, mTempPhotoPath);
+        BitmapUtils.deleteImageFile(mainActivityComponent.context(), mTempPhotoPath);
 
         // Save the image
-        BitmapUtils.saveImage(this, mResultBitmap);
+        BitmapUtils.saveImage(mainActivityComponent.context(), mResultBitmap);
     }
 
     /**
@@ -191,13 +204,13 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.share_button)
     public void shareMe() {
         // Delete the temporary image file
-        BitmapUtils.deleteImageFile(this, mTempPhotoPath);
+        BitmapUtils.deleteImageFile(mainActivityComponent.context(), mTempPhotoPath);
 
         // Save the image
-        BitmapUtils.saveImage(this, mResultBitmap);
+        BitmapUtils.saveImage(mainActivityComponent.context(), mResultBitmap);
 
         // Share the image
-        BitmapUtils.shareImage(this, mTempPhotoPath);
+        BitmapUtils.shareImage(mainActivityComponent.context(), mTempPhotoPath);
     }
 
     /**
@@ -214,6 +227,6 @@ public class MainActivity extends AppCompatActivity {
         mClearFeb.setVisibility(View.GONE);
 
         // Delete the temporary image file
-        BitmapUtils.deleteImageFile(this, mTempPhotoPath);
+        BitmapUtils.deleteImageFile(mainActivityComponent.context(), mTempPhotoPath);
     }
 }
