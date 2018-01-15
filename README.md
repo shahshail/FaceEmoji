@@ -20,12 +20,16 @@ This app receives Probability of each expression from Face Detection library whi
 
 Face Detection Library gives three classifications
 **1.** Smiling Probability
+
 **2.** Left Eye open probability
+
 **3.** Right Eye Open Probability
  
 In this app i have defined three Threshold constants
 **1.** EMOJI_SCALE_FACTOR = **0.09**
+
 **2.** SMILING_PROB_THRESHOLD = **.15**
+
 **3.** EYE_OPEN_PROB_THRESHOLD = **0.05**
 
 So with the use of above three probabilities and thresholds we can calculate different 8 expressions.
