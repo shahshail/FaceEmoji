@@ -77,7 +77,6 @@ Face doesnt has to be directly facing to the camera the app is smart enaugh to d
 **shareImage()**: This method creates a share implicit intent, which will bring up the system chooser with apps that handle sharing an image.
 
 ## Libraries 
-- Dagger 2.8 (DI)
 - Google Mobile Vision
 - ButterKnife
 - Timber
